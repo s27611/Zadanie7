@@ -12,8 +12,7 @@ using System.Data;
 
 public class WarehouseController : ApiController
 {
-    private readonly string _connectionString =
-        "Server=db-mssql16.pjwstk.edu.pl;Database=MagazynDB;User Id=s27611;Password=mssql;";
+    private readonly string _connectionString = "Server=db-mssql16.pjwstk.edu.pl;Database=MagazynDB;User Id=s27611;Password=mssql;";
 
     [HttpPost]
     public IHttpActionResult AddProductToWarehouse(ProductWarehouseRequest request)
