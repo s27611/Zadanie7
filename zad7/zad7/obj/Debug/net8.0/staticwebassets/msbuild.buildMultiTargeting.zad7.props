@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\zad7.props" />
+</Project>
